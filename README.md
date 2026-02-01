@@ -34,12 +34,12 @@ The project follows a complete machine learning workflow including data preproce
 
 ## Model Architecture
 
-Baseline Model
+### Baseline Model
 	•	Flatten
 	•	Dense (128, ReLU)
 	•	Dense (10, Softmax)
 
-Regularized Model (Final)
+### Regularized Model (Final)
 	•	Flatten
 	•	Dense (256, ReLU, L2 regularization)
 	•	Dropout (0.3)
@@ -74,7 +74,7 @@ The test set is used only once for final evaluation.
 
 ## Error Analysis Summary
 
-Most classification errors occur between visually similar classes:
+### Most classification errors occur between visually similar classes:
 	•	Shirt ↔ T-shirt/top / Pullover / Coat
 	•	Sandal ↔ Sneaker
 	•	Pullover ↔ Coat
