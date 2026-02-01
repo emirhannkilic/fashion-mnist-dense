@@ -1,3 +1,6 @@
+md
+
+
 # Fashion-MNIST Classification (Dense Neural Network)
 
 This project implements a fully-connected neural network for multiclass image classification on the Fashion-MNIST dataset using TensorFlow and Keras.
