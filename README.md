@@ -16,6 +16,8 @@ The project follows a complete machine learning workflow including data preproce
 ---
 
 ## Project Structure
+
+```text
 .
 ├── main.py
 ├── src
