@@ -85,11 +85,15 @@ A convolutional neural network (CNN) would likely improve performance by learnin
 ---
 
 ## How to Run
-	1.  Create and activate a virtual environment
-	2.  Install dependencies:
-        ```bash
-        pip install -r requirements.txt
-  3.	Run training and evaluation:
-        ```bash  
-        python main.py
-  
+1. Create and activate a virtual environment.
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run training and evaluation:
+
+   ```bash
+   python main.py
+   ```
