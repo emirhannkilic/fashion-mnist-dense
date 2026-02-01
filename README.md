@@ -28,8 +28,11 @@ The project follows a complete machine learning workflow including data preproce
 │   └── utils.py       # utilities and class names
 ├── models/            # saved trained models (optional)
 └── requirements.txt
+```
 
-Model Architecture
+---
+
+## Model Architecture
 
 Baseline Model
 	•	Flatten
@@ -44,9 +47,9 @@ Regularized Model (Final)
 	•	Dropout (0.2)
 	•	Dense (10, Softmax)
 
-⸻
+---
 
-Training Setup
+## Training Setup
 	•	Optimizer: Adam
 	•	Loss function: Sparse Categorical Crossentropy
 	•	Train / Validation / Test split:
@@ -59,17 +62,17 @@ Training Setup
 The validation set is evaluated during training to monitor overfitting and guide model selection.
 The test set is used only once for final evaluation.
 
-⸻
+---
 
-Evaluation
+## Evaluation
 	•	Test Accuracy: ~86%
 	•	Learning curves (training vs validation loss and accuracy)
 	•	Confusion matrix
 	•	Visualization of misclassified examples
 
-⸻
+---
 
-Error Analysis Summary
+## Error Analysis Summary
 
 Most classification errors occur between visually similar classes:
 	•	Shirt ↔ T-shirt/top / Pullover / Coat
@@ -79,9 +82,9 @@ Most classification errors occur between visually similar classes:
 These errors are expected for a fully-connected network, since spatial information is lost after the Flatten layer.
 A convolutional neural network (CNN) would likely improve performance by learning local spatial features.
 
-⸻
+---
 
-How to Run
+## How to Run
 	1.	Create and activate a virtual environment
 	2.	Install dependencies:
         pip install -r requirements.txt
